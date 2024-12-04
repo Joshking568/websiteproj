@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation Page - VGI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1C55D5; /* PlayStation blue background */
+            color: white; /* White text for contrast */
+        }
+        header {
+            background-color: #0F3B87; /* Darker blue for header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+            min-height: 80vh; /* Ensures footer is positioned correctly */
+        }
+        a {
+            color: #ADD8E6; /* Light blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .video-section {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 80%;
+            max-width: 700px;
+            height: 400px;
+            border: none;
+        }
+        nav {
+            background-color: #0F3B87; /* Dark blue for PlayStation navigation */
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 50px;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #fff; /* White text for contrast */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: white;
+            color: black;
+            padding: 5px; /* Smaller footer for better layout */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 0.8em;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PlayStation Video Game Information Page</h1>
+    </header>
+    <main>
+        <p>This is the PlayStation page for VGI! Come here for information on the PS5 console! Made and distributed by Sony.</p>
+
+        <div class="video-section">
+            <h2>PS5 Black Friday Deals</h2>
+            <iframe 
+                src="https://www.youtube.com/embed/asTg5rkwjXY" 
+                title="PS5 Black Friday Deals">
+            </iframe>
+            <p>Credit: <a href="https://www.youtube.com/@GameCross" target="_blank">GameCross</a></p>
+        </div>
+
+        <div class="video-section">
+            <h2>PlayStation Plus Deals</h2>
+            <p>Credit: <a href="https://www.youtube.com/@PlayStationGrenade" target="_blank">PlayStation Grenade</a></p>
+            <iframe 
+                src="https://www.youtube.com/embed/yMYuHuO18zs" 
+                title="PlayStation Plus Deals">
+            </iframe>
+        </div>
+    </main>
+    <nav>
+        <a href="../index.html">Home</a>
+        <link rel="stylesheet" href="style.css">
+    </nav>
+    <footer>
+        <p>&copy; 2024 VGI. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
