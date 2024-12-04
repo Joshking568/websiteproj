@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Page - VGI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E60012; /* Nintendo red background */
+            color: white; /* White text for contrast */
+        }
+        header {
+            background-color: #A8000A; /* Darker red for header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+            min-height: 80vh; /* Ensures footer is positioned correctly */
+        }
+        a {
+            color: #ADD8E6; /* Light blue for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .video-section {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 80%;
+            max-width: 700px;
+            height: 400px;
+            border: none;
+        }
+        nav {
+            background-color: #A8000A; /* Dark red for Nintendo navigation */
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 50px;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #fff; /* White text for contrast */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: white;
+            color: black;
+            padding: 5px; /* Smaller footer for better layout */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 0.8em;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nintendo Video Game Information Page</h1>
+    </header>
+    <main>
+        <p>This is the Nintendo page for VGI! Come here for information on the Nintendo Switch console! Made and distributed by Nintendo.</p>
+
+        <div class="video-section">
+            <h2>Nintendo Switch Black Friday Deals</h2>
+            <p>Credit: <a href="https://www.youtube.com/@RGT85" target="_blank">RGT85</a></p>
+            <iframe 
+                src="https://www.youtube.com/embed/R1OrDf1vTEY" 
+                title="Nintendo Switch Black Friday Deals">
+            </iframe>
+        </div>
+
+        <div class="video-section">
+            <h2>Nintendo Subscription Deals</h2>
+            <p>Credit: <a href="https://www.youtube.com/@ChaseYama" target="_blank">Chase Yama</a></p>
+            <iframe 
+                src="https://www.youtube.com/embed/59IZXOSF5IM" 
+                title="Nintendo Subscription Deals">
+            </iframe>
+        </div>
+    </main>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../xbox/index.html">Xbox</a>
+        <a href="../playstation/index.html">PlayStation</a>
+        <a href="#pc">PC</a>
+    </nav>
+    <footer>
+        <p>&copy; 2024 VGI. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
