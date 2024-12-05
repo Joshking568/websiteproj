@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlayStation Page - VGI</title>
-    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,21 +20,8 @@
         }
         main {
             padding: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            min-height: 80vh; /* Ensures footer is positioned correctly */
-        }
-        .video-section {
-            flex: 1 1 60%;
             text-align: center;
-        }
-        .article-section {
-            flex: 1 1 30%;
-            background-color: #0F3B87;
-            padding: 20px;
-            border-radius: 10px;
+            min-height: 80vh; /* Ensures footer is positioned correctly */
         }
         a {
             color: #ADD8E6; /* Light blue for links */
@@ -44,8 +30,11 @@
         a:hover {
             text-decoration: underline;
         }
+        .video-section {
+            margin: 20px 0;
+        }
         iframe {
-            width: 100%;
+            width: 80%;
             max-width: 700px;
             height: 400px;
             border: none;
@@ -88,6 +77,8 @@
         <h1>PlayStation Video Game Information Page</h1>
     </header>
     <main>
+        <p>This is the PlayStation page for VGI! Come here for information on the PS5 console! Made and distributed by Sony.</p>
+
         <div class="video-section">
             <h2>PS5 Black Friday Deals</h2>
             <iframe 
@@ -95,7 +86,9 @@
                 title="PS5 Black Friday Deals">
             </iframe>
             <p>Credit: <a href="https://www.youtube.com/@GameCross" target="_blank">GameCross</a></p>
+        </div>
 
+        <div class="video-section">
             <h2>PlayStation Plus Deals</h2>
             <p>Credit: <a href="https://www.youtube.com/@PlayStationGrenade" target="_blank">PlayStation Grenade</a></p>
             <iframe 
@@ -103,23 +96,10 @@
                 title="PlayStation Plus Deals">
             </iframe>
         </div>
-
-        <div class="article-section">
-            <h2>Featured Articles</h2>
-            <ul>
-                <li><a href="https://www.ign.com/articles/best-ps5-playstation-cyber-monday-deals-2024" target="_blank">Best PS5 PlayStation Cyber Monday Deals 2024</a> - Credit: IGN</li>
-                <li><a href="https://www.playstation.com/en-us/deals/black-friday/" target="_blank">PlayStation Black Friday Deals</a> - Credit: PlayStation.com</li>
-            </ul>
-        </div>
     </main>
     <nav>
         <a href="../index.html">Home</a>
-        <a href="../xbox/index.html">Xbox</a>
-        <a href="../nintendo/index.html">Nintendo</a>
-        <a href="../pc/index.html">PC</a>
+        <link rel="stylesheet" href="style.css">
     </nav>
     <footer>
         <p>&copy; 2024 VGI. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
